@@ -2,6 +2,6 @@ services:
     web: 
       image : zakkariyab/simplecompose
       ports:
-        -"8000:5000"
+      - "8000:5000"
     redis:
       image: "redis:alpine"
